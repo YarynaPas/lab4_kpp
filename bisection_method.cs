@@ -9,7 +9,7 @@ namespace ConsoleApplication1
             return x * x - 4; // приклад: x² - 4 = 0 → корені ±2
         }
 
-        static void Main(string[] args)
+        static void Bisection(string[] args)
         {
             double a, b, c, Eps;
             int Lich = 0;
